@@ -44,6 +44,14 @@ def render_about():
                 <a href="mailto:jonathan.mesquita@hotmail.com" style="text-decoration: none; font-size: 14px;">
                     📩 <b>jonathan.mesquita@hotmail.com</b>
                 </a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        ),
+    
+    col2.markdown(
+            """
+            <div style="display: flex; align-items: center; gap: 10px;">
                 <a href="https://www.linkedin.com/in/jonathan-mesquita-3049581b1" target="_blank" style="text-decoration: none; font-size: 14px;">
                     🌐 <b>LinkedIn: Jonathan Mesquita</b>
                 </a>
@@ -51,6 +59,8 @@ def render_about():
             """,
             unsafe_allow_html=True,
         ),
+
+
     
     #Renderizar texto sobre
 
@@ -66,8 +76,7 @@ def render_about():
     <br>
 
     Sou entusiasta de tecnologia e acredito no poder da inovação. Meu objetivo não é apenas criar projetos complexos, mas também simplificar processos e otimizar 
-    o tempo por meio de automações para tarefas repetitivas, utilizando ferramentas como Python e suas diversas bibliotes e, para soluções mais simples, plataformas de low-code como Power Automate e Power apps.<br>
-
+    o tempo por meio de automações para tarefas repetitivas. Busco simplificar tarefas e melhorar a eficiência por meio de automações, utilizando Python e suas bibliotecas, além de plataformas low-code como Power Automate e Power Apps para soluções mais ágeis
     <br>
     Pronto para transformar dados em decisões inteligentes? Vamos juntos! 🚀
 

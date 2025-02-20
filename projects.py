@@ -43,7 +43,7 @@ def render_projects():
             "titulo": "💼 Portilio de projetos",
             "data": "Dez/24" ,
             "descricao":"Este projeto reflete minha evolução em estudos e projetos, além de inspirar outros colegas a criarem seus proprios portifólios. ",
-            "link": ""
+            "link": "https://github.com/JONATHAN-ALMEIDA-MESQUITA/Personal_portfolio"
         },
         {
             "imagem": get_image_as_base64("assets/imagens/rpa_email.png"),
