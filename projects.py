@@ -11,6 +11,13 @@ def render_projects():
     #Carregar projetos
     projects = [
         {
+            "imagem": get_image_as_base64("assets/imagens/Deteccao_fraude.png"),
+            "titulo": "🔍 Detecção de fraude",
+            "data": "Mar/2025",
+            "descricao": "Análise de dados para detectar fraudes em transações financeiras.",
+            "link": "https://aplicativo-web-fraud.amslmd.easypanel.host/"
+        },
+        {
             "imagem": get_image_as_base64("assets/imagens/estimativa_de_precos_de_Imoveis.png"),
             "titulo": "🏠 Estimativa de preços de imóveis",
             "data": "Nov/2024",
@@ -18,14 +25,14 @@ def render_projects():
             "link": "https://aplicativo-web-predictive-analysis.amslmd.easypanel.host/"
         },
         {
-            "imagem": get_image_as_base64("assets/imagens/analise_de_tendencias_de_viagem.png"),
+            "imagem": get_image_as_base64("assets/imagens/analise_de_vendas_ecommerce.png"),
             "titulo": "🛒 Analise de vendas E-commerce",
             "data": "Set/24",
             "descricao": "Previsão de vendas baseada em dados de e-commerce para análise de desempenho futuro.",
             "link": "https://github.com/JONATHAN-ALMEIDA-MESQUITA/E-commerce_sales_analysis"
         },
         {
-            "imagem": get_image_as_base64("assets/imagens/analise_de_vendas_ecommerce.png"),
+            "imagem": get_image_as_base64("assets/imagens/analise_de_tendencias_de_viagem.png"),
             "titulo": "✈️ Análise de tendências de viagem",
             "data": "Jun/24",
             "descricao": "Modelo de análise de dados para previsão e insights sobre tendências de viagens e viajantes.",
